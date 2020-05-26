@@ -37,3 +37,5 @@ jobs:
         sed -i "s/USERNAME/${{ secrets.SEP_USER_NAME }}/g" sub.py
         sed -i "s/API_KEY/${{ secrets.API_KEY }}/g" sub.py
         python ./sub.py >> /dev/null
+        
+#test1
